@@ -1,6 +1,5 @@
 
 const body = document.body; /* dom에서 body부분 끌어오기 */
-const KEY = '32712000-482aa3e5c30a87ba733c3af44';
 
 async function getPixa() { /* API 호출 및 배경그림 랜덤 부여 */
     const imgGet = await fetch(`https://pixabay.com/api/?key=${KEY}&q=sky&image_type=photo`);
